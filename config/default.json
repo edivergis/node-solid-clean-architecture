@@ -1,0 +1,27 @@
+{
+    "Application": {
+        "port": 8000,
+        "xClient": "",
+        "xAuth": "",
+        "applicationName": "API Node Clean Architecture + SOLID" 
+    },
+    "Database": {
+        "user": "postgres",
+        "host": "",
+        "database": "",
+        "password": "",
+        "port": 5432,
+        "max": 200
+    },
+    "Redis": {
+        "host": "",
+        "port": 6379,
+        "pass": ""
+    },
+    "AWSS3":{
+        "region": "",
+        "bucketName": "",
+        "accessKey": "",
+        "secretKey": ""
+    }
+}   

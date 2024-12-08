@@ -1,0 +1,31 @@
+### Listar
+GET http://localhost:8000/users
+
+### Criar
+POST http://localhost:8000/user
+Content-Type: application/json
+
+{
+    "username": "Juca Neves",
+    "password": "teste123",
+    "email": "juca.neves@gmail.com"
+}
+
+### Recuperar
+GET http://localhost:8000/user/bba7882c-fbfc-4e21-821b-1b75ca08e872
+Content-Type: application/json
+
+### Atualizar
+PUT http://localhost:8000/user/98133680-50a6-4385-97f8-d6efb98d482d
+Content-Type: application/json
+
+{
+    "username": "Juca Neves",
+    "password": "teste123",
+    "email": "juca.neves@gmail.com"
+}
+
+### Deletar
+DELETE http://localhost:8000/user/7aea3387-0a34-4529-a609-c60930f0ec6e
+
+### Create Read Update Delete

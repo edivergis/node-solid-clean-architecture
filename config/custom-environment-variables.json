@@ -1,0 +1,27 @@
+{
+    "Application": {
+        "port": "PORT",
+        "xClient": "X_CLIENT",
+        "xAuth": "X_AUTH",
+        "applicationName": "APPLICATION_NAME"
+    },
+    "Database": {
+        "user": "DB_USER",
+        "host": "DB_HOST",
+        "database": "DATABASE",
+        "password": "USER_PASSWORD",
+        "port": "DB_PORT",
+        "max": "DB_MAX_CONNECTIONS"
+    },
+    "Redis": {
+        "host": "REDIS_HOST",
+        "port": "REDIS_PORT",
+        "pass": "REDIS_PASS"
+    },
+    "AWSS3":{
+        "region": "AWS_REGION",
+        "bucketName": "AWS_S3_BUCKET_NAME",
+        "accessKey": "AWS_S3_ACCESS_KEY",
+        "secretKey": "AWS_S3_SECRET_KEY"
+    }
+}
