@@ -16,7 +16,7 @@ GET http://localhost:8000/user/bba7882c-fbfc-4e21-821b-1b75ca08e872
 Content-Type: application/json
 
 ### Atualizar
-PUT http://localhost:8000/user/98133680-50a6-4385-97f8-d6efb98d482d
+PUT http://localhost:8000/user/3e4d52e5-2fc3-4452-b1c0-284e78e6aa34
 Content-Type: application/json
 
 {
@@ -26,6 +26,6 @@ Content-Type: application/json
 }
 
 ### Deletar
-DELETE http://localhost:8000/user/7aea3387-0a34-4529-a609-c60930f0ec6e
+DELETE http://localhost:8000/user/f547eab9-49d5-4f39-9324-2eb80d9c9fe3
 
 ### Create Read Update Delete
